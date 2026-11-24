@@ -30,7 +30,7 @@ jobs:
           npm install @capacitor/core@7.4.3
           npm install -D @capacitor/cli@7.4.3
           npm install @capacitor/android@7.4.3
-          npx cap init "Radharaman Foundation" "com.radharaman.foundation" --web-dir www
+          npx cap init "Radharaman Foundation" "com.radharaman.foundation.mobile" --web-dir www
           npx cap add android
           npx cap sync android
 
